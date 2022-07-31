@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Deep Search</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<h3>
+							<i class="fas fa-user-plus"></i>
+							Add New User
+						</h3>
+					</div>
+					<div class="card-body">
+						<form id="search-form">
+							<div class="form-group">
+								<label for="search">Job Title</label>
+								<input type="text" name="search" class="form-control" id="search" placeholder="Enter Job Title">
+							</div>
+							<div class="form-group">
+								<label for="text">Location</label>
+								<input type="text" name="location" class="form-control" id="location" placeholder="Location">
+							</div>
+							<div class="form-group">
+								<label for="stack">Skills / Technologies</label>
+								<input name="stack" class="form-control" id="stack" placeholder="Enter skills">
+							</div>
+							<!-- <div class="form-group">
+								<label for="confirm_password">Confirm Password</label>
+								<input type="password" name="confirm_password" class="form-control" id="confirm_password" placeholder="Enter Confirm Password">
+							</div>
+							<div class="form-group">
+								<label for="role">Role</label>
+								<select name="role" id="role" class="form-control">
+									<option value="">Select Role</option>
+									<option value="1">Admin</option>
+									<option value="2">User</option>
+								</select>
+							</div> -->
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<main class="container">
+		<div id="loading-element" style="display: none">
+			<div class="spinner-border text-primary" role="status">
+				<span class="sr-only">Loading...</span>
+			</div>
+		</div>
+		<section id="results-container">
+
+		</section>
+	</main>
+	<script src="/index.a8f04b30.js" defer=""></script>
+</body>
+</html>
